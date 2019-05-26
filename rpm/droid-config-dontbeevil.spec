@@ -1,11 +1,11 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device hammerhead
-%define vendor lge
+%define device dontbeevil
+%define vendor pine64
 
-%define vendor_pretty LG
-%define device_pretty Nexus 5
+%define vendor_pretty Pine64
+%define device_pretty Pinephone
 
 # Community HW adaptations need this
 %define community_adaptation 1
@@ -16,6 +16,8 @@
 # pixel_ratio = 4.5/DiagonalDisplaySizeInches * HorizontalDisplayResolution/540
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
+
+%define native_build 1
 
 %include droid-configs-device/droid-configs.inc
 
