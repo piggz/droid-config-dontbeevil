@@ -67,13 +67,13 @@ Requires: geoclue
 # For mounting SD card automatically
 Requires: sd-utils
 
-Requires: droid-hal-kernel-donebeevil
-Requires: droid-config-donebeevil-sailfish
-Requires: droid-config-donebeevil-pulseaudio-settings
-Requires: droid-config-donebeevil-policy-settings
-Requires: droid-config-donebeevil-preinit-plugin
-Requires: droid-config-donebeevil-bluez5
-Requires: droid-hal-version-donebeevil
+Requires: droid-hal-kernel-dontbeevil
+Requires: droid-config-dontbeevil-sailfish
+Requires: droid-config-dontbeevil-pulseaudio-settings
+Requires: droid-config-dontbeevil-policy-settings
+Requires: droid-config-dontbeevil-preinit-plugin
+Requires: droid-config-dontbeevil-bluez5
+Requires: droid-hal-version-dontbeevil
 #Requires: droid-config-donebeevil-flashing
 
 %description
