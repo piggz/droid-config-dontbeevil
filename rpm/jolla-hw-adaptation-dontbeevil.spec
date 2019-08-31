@@ -17,7 +17,7 @@ Requires: wayland-egl
 
 # bluetooth tools
 Requires: bluez5-tools
-Requires: bluetooth-rfkill-event-hciattach
+#Requires: bluetooth-rfkill-event-hciattach
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
