@@ -10,7 +10,21 @@ Requires: patterns-sailfish-applications
 Requires: patterns-sailfish-ui
 
 # Early stages of porting benefit from these:
-Requires: sailfish-porter-tools
+#Requires: sailfish-porter-tools
+Requires: jolla-developer-mode
+Requires: sailfishsilica-qt5-demos
+Requires: busybox-static
+Requires: net-tools
+Requires: openssh-clients
+Requires: openssh-server
+Requires: vim-enhanced
+Requires: zypper
+Requires: strace
+
+# jolla-rnd-device will enable usb-moded even when UI is not yet
+# brought up (useful during development, available since update10)
+Requires: jolla-rnd-device
+#End sailfish-porter-tools
 
 # Jolla Store Items
 Requires: patterns-sailfish-consumer-generic

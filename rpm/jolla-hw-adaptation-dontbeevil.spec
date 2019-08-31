@@ -18,8 +18,9 @@ Requires: qt5-feedback-haptics-native-vibrator
 # Sensors
 Requires: hybris-libsensorfw-qt5
 
-Requires: pulseaudio-modules-droid
-Requires: pulseaudio-modules-droid-glue
+#PA needs work
+#Requires: pulseaudio-modules-droid
+#Requires: pulseaudio-modules-droid-glue
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
