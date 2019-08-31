@@ -24,7 +24,7 @@ Requires: ngfd-plugin-native-vibrator
 Requires: qt5-feedback-haptics-native-vibrator
 
 # Sensors
-Requires: hybris-libsensorfw-qt5
+#Requires: hybris-libsensorfw-qt5
 
 #PA needs work
 #Requires: pulseaudio-modules-droid
