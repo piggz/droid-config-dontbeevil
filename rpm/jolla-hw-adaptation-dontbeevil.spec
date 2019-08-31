@@ -44,16 +44,16 @@ Requires: gstreamer1.0-plugins-good
 Requires: gstreamer1.0-plugins-base
 Requires: gstreamer1.0-plugins-bad
 Requires: nemo-gstreamer1.0-interfaces
-Requires: gstreamer1.0-droid
+#Requires: gstreamer1.0-droid
 
 # This is needed for notification LEDs
-Requires: mce-plugin-libhybris
+Requires: mce-plugin-libhybris-nondroid
 
 ## USB mode controller
 ## Enables mode selector upon plugging USB cable:
 Requires: usb-moded
 #Requires: usb-moded-defaults-android
-Requires: usb-moded-developer-mode-android
+#Requires: usb-moded-developer-mode-android
 
 Requires: rfkill
 
