@@ -35,7 +35,6 @@ Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 Requires: qt5-qtwayland-wayland_egl
-Requires: qtscenegraph-adaptation
 
 # Add GStreamer v1.0 as standard
 Requires: gstreamer1.0
