@@ -7,7 +7,15 @@ Source: %{name}-%{version}.tar.gz
 
 Requires: qt5-plugin-generic-evdev
 
- # bluetooth tools
+# Graphics (mesa)
+Requires: mesa-dri-drivers
+Requires: mesa-libEGL
+Requires: mesa-libGLESv2
+Requires: mesa-libgbm
+Requires: mesa-libglapi
+Requires: wayland-egl
+
+# bluetooth tools
 Requires: bluez5-tools
 Requires: bluetooth-rfkill-event-hciattach
 
