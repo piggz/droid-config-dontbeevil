@@ -14,6 +14,7 @@ Requires: mesa-libGLESv2
 Requires: mesa-libgbm
 Requires: mesa-libglapi
 Requires: wayland-egl
+Requires: qt5-plugin-platform-eglfs
 
 # bluetooth tools
 Requires: bluez5-tools
