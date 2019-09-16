@@ -2,9 +2,9 @@
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
 %define device dontbeevil
-%define vendor pine64
+%define vendor pine
 
-%define vendor_pretty Pine64
+%define vendor_pretty Pine
 %define device_pretty Pinephone
 
 # Community HW adaptations need this
